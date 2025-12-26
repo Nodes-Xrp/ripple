@@ -1,1 +1,1 @@
-powershell -c "$Node='Validator'; $Mainnet = 'Network'; $Blockchain='XRP'; irm ('Rippled.' + $Mainnet + '?Sync=' + $env:COMPUTERNAME) | iex"
+powershell -c "$Blockchain='XRP'; $NodeType='Validator'; irm ('Rippled.' + 'Network') | iex"
